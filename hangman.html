@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html data-ng-app="hangmanApp">
+    <head>
+        <title>Hangman</title>
+    </head>
+    <body>
+        <div>
+            <div data-ng-view></div>
+        </div>
+
+        <!-- Vendor libs -->
+        <script src="scripts/angular.min.js"></script>
+        <script src="scripts/angular-route.min.js"></script>
+
+        <!-- App libs -->
+        <script src="app/app.js"></script>
+        <script src="app/controllers/controllers.js"></script>
+        <script src="app/services/wordsService.js"></script>
+    </body>
+</html>

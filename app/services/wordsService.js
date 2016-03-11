@@ -3,21 +3,19 @@
 hangmanApp.service('wordsService', function() {
 
     var words = [
-        "angry", "application", "ashtray",
         "bed", "black", "book", "button",
-        "cable", "candle", "chair", "computer",
+        "cable", "candle", "chair", "church", "computer",
         "desk",
         "eggs",
-        "finger",
-        "grey",
-        "hangman", "happy", "head",
-        "keyboard",
+        "finger", "flat",
+        "green", "grey",
+        "happy", "hamster", "head", "house",
         "mouse",
-        "note",
-        "package", "paper", "phone",
-        "table", "template", "tomato",
-        "user",
-        "water", "word" ];
+        "paper", "pasta", "phone", "place", "potato",
+        "red",
+        "table", "tomato", "tower",
+        "yellow",
+        "water", "white", "word" ];
 
     //var words = [ "aa" ];
     this.selectWord = function() {

@@ -20,7 +20,9 @@
                 <br/>
                 <br/>
                 <label data-ng-show="youWon()">You've WON !</label>
-                <label data-ng-show="youLost()">You've LOST ! Correct word: {{ selectedWord }}</label>
+                <label data-ng-show="youLost()">You've LOST ! The correct word was {{ selectedWord }}</label>
+                <br />
+                <a ng-href="http://www.thefreedictionary.com/{{selectedWord}}" data-ng-show="gameOver()">Click for more details</a>
             </td>
         </tr>
     </table>
